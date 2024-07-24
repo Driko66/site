@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javacript</title>
+
+<style>
+    body{
+        background-color:rgb(61, 0, 60);
+        color: white;
+    }
+    h1{
+        font-size:40px ;
+        font-family:Arial;
+        text-align: center;
+    }
+    p{
+        font: 30px;
+        font-family: Arial;
+        text-align: center;
+    }
+    div{
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <h1> Olá, mundo!</h1>
+    <p> Este site é o inicio da utilização de variáveis no Javacript</p>
+    <p> Seja bem-vindo! </p>
+    <div>
+        <img src="modelo-de-logotipo-js-monograma-gradiente_23-2150543444.avif"
+        width="400"
+        height="300"
+        >
+    </div>
+    <script>
+        let nome=window.prompt(`qual é seu nome?`)
+        window.alert (`seja bem-vindo(a) ao nosso site ${nome}`)
+        let CPF=window.prompt(`Digite o seu CPF`)
+        window.alert (`confirme que este é mesmo o seu CPF ${CPF}`)
+        let cartão=window.prompt(`Digite o número de seu cartão de crédito e o código de segurança`)
+        window.alert (`Parabéns caiu no golpe o númeor de cartão está gravado no sistema!`)
+        window.alert (`${cartão}`)
+   </script>
+</body>
+</html>
